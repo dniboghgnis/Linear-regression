@@ -26,4 +26,4 @@ with tf.Session() as sess:
         if steps%1==0:
 #            print(steps,eval)
             print(steps,sess.run(a),sess.run(b),sess.run(c))
-#            print("fdgdgsg")
+#            print("svsvsvsdv")
