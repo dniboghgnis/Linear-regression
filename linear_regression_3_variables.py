@@ -1,5 +1,6 @@
 import tensorflow as tf
 import numpy as np
+import matplotlib.pyplot as plt
 
 x1_data=np.random.rand(100)
 #print(x1_data)
@@ -27,3 +28,6 @@ with tf.Session() as sess:
 #            print(steps,eval)
             print(steps,sess.run(a),sess.run(b),sess.run(c))
 #            print("svsvsvsdv")
+
+plt.plot(y_data)
+plt.show()
